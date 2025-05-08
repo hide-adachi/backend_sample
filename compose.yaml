@@ -6,6 +6,7 @@ services:
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
+    command: bash -c "yarn watch"
     ports:
       - "3000:3000"
     tty: true
