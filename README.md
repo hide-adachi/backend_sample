@@ -9,6 +9,7 @@ https://code.visualstudio.com/docs/devcontainers/containers
 ※↑読まなくても、
 1. VS Codeの拡張機能より、【.devcontainer】を追加
 2. 左下の><みたいなアイコンから【Reopen in Container】
+3. 立ち上がったらAPIも実行できます
 
 # (yarn) command
 コマンド周りは【package.json】を見て下さい
