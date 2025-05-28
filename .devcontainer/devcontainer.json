@@ -4,5 +4,6 @@
       "../compose.yaml"
     ],
     "service": "app",
-    "workspaceFolder": "/usr/src/app"
+    "workspaceFolder": "/usr/src/app",
+    "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
